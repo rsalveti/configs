@@ -45,6 +45,7 @@ packages:
 - 96boards-artwork
 - firmware-linux
 - linux-image-reference-arm64
+- wcnss-wlan
 sources:
   debian: http://http.debian.net/debian/ jessie main contrib non-free
   repo: http://repo.linaro.org/ubuntu/linaro-overlay jessie main
