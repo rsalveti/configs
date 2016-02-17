@@ -41,12 +41,18 @@ assume_installed:
 - libnl-3-200
 - libnl-genl-3-200
 - linaro-artwork
+- libdrm2
+- libexpat1
+- xserver-xorg-core
 packages:
 - 96boards-artwork
 - firmware-linux
 - linux-image-reference-arm64
 - wcnss-wlan
+- xserver-xorg-video-freedreno
+- libgl1-mesa-dri
 sources:
   debian: http://http.debian.net/debian/ jessie main contrib non-free
+  backports: http://http.debian.net/debian/ jessie-backports main contrib non-free
   repo: http://repo.linaro.org/ubuntu/linaro-overlay jessie main
   staging: http://repo.linaro.org/ubuntu/linaro-staging jessie main
